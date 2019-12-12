@@ -9,7 +9,8 @@ class Conntection
             return new PDO(
                 $config["connection"] . ";dbname=" . $config["dbname"],
                 $config["username"],
-                $config["password"]
+                $config["password"],
+                $config["options"]
             );
         } catch (PDOException $ex) {
             die($ex->getMessage());

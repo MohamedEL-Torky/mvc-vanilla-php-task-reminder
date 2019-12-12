@@ -3,6 +3,6 @@
 require "core/model/task.php";
 
 
-$tasks = $app["database"]->fetchAll('todos', "task");
+$tasks = $app["database"]->fetchAll('todo', "task");
 
 require "views/index.view.php";
