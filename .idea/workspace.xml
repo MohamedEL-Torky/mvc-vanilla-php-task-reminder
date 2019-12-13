@@ -2,22 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3673258-db86-4a31-a990-98585e439c62" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/add-task.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/util/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/add-user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/util/App.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/util/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/add-task.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/add-task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/bootstrap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/database/QueryBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/database/QueryBuilder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/model/task.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/model/Task.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/util/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/util/routes.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/nav.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,15 +66,19 @@
     <option name="height" value="741" />
   </component>
   <component name="ProjectId" id="1UsoIBh7huCVvuHIy7KFZ8PPd2M" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/core/database/QueryBuilder.php" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Other File Types" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
@@ -84,12 +92,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -108,6 +111,8 @@
       <updated>1576048665378</updated>
       <workItem from="1576048668806" duration="95000" />
       <workItem from="1576154582794" duration="10293000" />
+      <workItem from="1576233871707" duration="3776000" />
+      <workItem from="1576249112138" duration="2024000" />
     </task>
     <servers />
   </component>
@@ -122,14 +127,41 @@
       <collection />
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="348" y="124" width="800" height="677" key="#SQL_Dialects" timestamp="1576235743275">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="348" y="124" width="800" height="677" key="#SQL_Dialects/67.27.1373.873@67.27.1373.873" timestamp="1576235743275" />
     <state x="348" y="124" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576159036540">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="348" y="124" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1373.873@67.27.1373.873" timestamp="1576159036540" />
+    <state x="531" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1576235696059">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="531" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1373.873@67.27.1373.873" timestamp="1576235696059" />
+    <state x="372" y="276" width="753" height="373" key="NewPhpClassDialog" timestamp="1576253829424">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="372" y="276" width="753" height="373" key="NewPhpClassDialog/67.27.1373.873@67.27.1373.873" timestamp="1576253829424" />
+    <state x="549" y="388" width="399" height="149" key="NewPhpFileDialog" timestamp="1576235264022">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="549" y="388" width="399" height="149" key="NewPhpFileDialog/67.27.1373.873@67.27.1373.873" timestamp="1576235264022" />
+    <state x="409" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1576249118429">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="409" y="290" key="com.intellij.ide.util.TipDialog/67.27.1373.873@67.27.1373.873" timestamp="1576249118429" />
     <state x="407" y="80" width="683" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576163575317">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="407" y="80" width="683" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1373.873@67.27.1373.873" timestamp="1576163575317" />
+    <state x="417" y="208" key="run.anything.popup" timestamp="1576249146089">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="417" y="208" key="run.anything.popup/67.27.1373.873@67.27.1373.873" timestamp="1576249146089" />
   </component>
 </project>
