@@ -1,10 +1,13 @@
 <?php
-$app = [];
-$app["config"] = require "util/config.php";
 
+App::bind("config", require "util/config.php");
 
+try {
+    App::bind("database", new QueryBuilder(
+        Conntection::make(App::resolve("config")["database"])
+    ));
 
-$app["database"] = new QueryBuilder(
-    Conntection::make($app["config"]["database"])
-);
+} catch (Exception $ex) {
+    echo $ex->getMessage();
+}
 

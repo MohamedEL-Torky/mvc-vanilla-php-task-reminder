@@ -9,12 +9,12 @@ class Router
 
     public static function GET($uri, $controller)
     {
-        Router::$routes["GET"][$uri] = $controller;
+        static::$routes["GET"][$uri] = $controller;
     }
 
     public static function POST($uri, $controller)
     {
-        Router::$routes["POST"][$uri] = $controller;
+        static::$routes["POST"][$uri] = $controller;
     }
 
 
@@ -27,8 +27,8 @@ class Router
 
     public function direct($uri, $requestType)
     {
-        if (array_key_exists($uri, Router::$routes[$requestType])) {
-            return Router::$routes[$requestType][$uri];
+        if (array_key_exists($uri, static::$routes[$requestType])) {
+            return static::$routes[$requestType][$uri];
         }
         throw new Exception("No Routes defined for this URI");
     }

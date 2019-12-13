@@ -3,6 +3,11 @@
 require "core/model/Task.php";
 
 
-$tasks = $app["database"]->fetchAll('todo', "task");
+try {
+    $tasks = App::resolve("database")->fetchAll('todo', "task");
+} catch (Exception $ex) {
+    echo $ex->getMessage();
+    die();
+}
 
 require "views/index.view.php";

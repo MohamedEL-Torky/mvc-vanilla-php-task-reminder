@@ -4,7 +4,12 @@ $parameters = [
     'name' => $_POST["name"],
 ];
 
-$app["database"]->insertInto('users', $parameters);
+try {
+    App::resolve("database")->insertInto('users', $parameters);
+} catch (Exception $ex) {
+    echo $ex->getMessage();
+    die();
+}
 
 echo "New user name added successfully";
 

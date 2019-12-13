@@ -5,7 +5,12 @@ $parameters = [
     'completed' => 0,
 ];
 
-$app["database"]->insertInto('todo', $parameters);
+try {
+    App::resolve("database")->insertInto('todo', $parameters);
+} catch (Exception $ex) {
+    echo $ex->getMessage();
+    die();
+}
 
 echo "New Task created successfully";
 
