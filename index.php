@@ -1,10 +1,9 @@
 <?php
-require "core/Router.php";
+require "core/util/Router.php";
 
 require "core/bootstrap.php";
 
+require "core/util/Request.php";
 
-$uri = trim($_SERVER["REQUEST_URI"], "/");
 
-require Router::load("core/util/routes.php")
-    ->direct($uri);
+require Router::load("core/util/routes.php")->direct(Request::uri(), Request::method());

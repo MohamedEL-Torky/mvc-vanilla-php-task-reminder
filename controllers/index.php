@@ -1,6 +1,6 @@
 <?php
 
-require "core/model/task.php";
+require "core/model/Task.php";
 
 
 $tasks = $app["database"]->fetchAll('todo', "task");

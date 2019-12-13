@@ -5,23 +5,49 @@
         echo $_GET["name"];;
         ?>
     </h3>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Task Description</th>
+            <th scope="col">Completed</th>
+        </tr>
+        </thead>
+        <tbody>
 
-    <ul>
 
-        <?php foreach ($tasks as $task) : ?>
-            <li>
+        <?php foreach ($tasks as $key => $task) : ?>
+            <tr>
+                <th scope="row"><?= $key ?></th>
                 <?php if ($task->isCompleted()) : ?>
 
-                    <strike><?= $task->getDescription(); ?></strike>
+                    <td><strike><?= $task->getDescription(); ?></strike></td>
+                    <td>YES</td>
 
                 <?php else : ?>
 
-                    <?= $task->getDescription(); ?>
+                    <td><?= $task->getDescription(); ?></td>
+                    <td>NO</td>
+
 
                 <?php endif; ?>
-            </li>
+            </tr>
 
         <?php endforeach; ?>
 
-    </ul>
+
+        </tbody>
+    </table>
+    <br>
+
+    <h3>Enter Task name</h3>
+
+    <form method="POST" action="/task">
+        <label>
+            Name
+            <input name="task"/>
+        </label>
+        <button type="submit" class="btn btn-success">SUBMIT</button>
+
+    </form>
 <?php include("partials/footer.php"); ?>

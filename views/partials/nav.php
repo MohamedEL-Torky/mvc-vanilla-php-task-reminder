@@ -1,16 +1,13 @@
 <nav>
-    <ul>
-        <li>
-            <a href="/">home</a>
-        </li>
-        <li>
-            <a href="/about">About</a>
-        </li>
-        <li>
-            <a href="/about/culture">About culture</a>
-        </li>
-        <li>
-            <a href="/contact">Contact</a>
-        </li>
-    </ul>
+    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+        <a class="nav-item nav-link" href="/">home</a>
+
+        <a class="nav-item nav-link" href="/about">About</a>
+
+        <a class="nav-item nav-link" href="/about/culture">About culture</a>
+
+        <a class="nav-item nav-link" href="/contact">Contact</a>
+
+    </div>
 </nav>
