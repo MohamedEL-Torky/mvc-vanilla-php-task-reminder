@@ -2,15 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3673258-db86-4a31-a990-98585e439c62" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/PagesController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/TaskController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/add-user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/bootstrap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/database/Connection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/database/QueryBuilder.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/util/App.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/util/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/util/Router.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/util/config.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/core/util/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/model/Task.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/routes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/about-culture.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/about.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/contact.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/index.view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/partials/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/partials/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/partials/nav.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tasks.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/task_remainder.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/task_remainder.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/add-task.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/add-task.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/add-user.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/add-user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/util/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/util/App.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/util/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/util/Router.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/about-culture.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/about.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/add-task.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/add-user.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/contact.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/bootstrap.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/database/Connection.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/database/QueryBuilder.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/model/Task.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/util/App.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/util/Request.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/util/Router.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/util/config.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/util/functions.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/util/routes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/about-culture.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/about.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/contact.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.view.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/footer.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/header.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/partials/nav.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +61,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution>
-      <executable />
+      <executable path="composer" />
     </execution>
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -48,6 +92,11 @@
   <component name="PhpServers">
     <servers />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="67" />
     <option name="y" value="27" />
@@ -73,6 +122,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/core/util" />
     </key>
   </component>
@@ -102,6 +152,7 @@
       <workItem from="1576154582794" duration="10293000" />
       <workItem from="1576233871707" duration="3776000" />
       <workItem from="1576249112138" duration="3143000" />
+      <workItem from="1576262654681" duration="9904000" />
     </task>
     <servers />
   </component>
@@ -120,6 +171,10 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="348" y="124" width="800" height="677" key="#Composer" timestamp="1576263165967">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="348" y="124" width="800" height="677" key="#Composer/67.27.1373.873@67.27.1373.873" timestamp="1576263165967" />
     <state x="348" y="124" width="800" height="677" key="#SQL_Dialects" timestamp="1576235743275">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
@@ -128,26 +183,30 @@
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="348" y="124" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1373.873@67.27.1373.873" timestamp="1576159036540" />
+    <state x="487" y="378" width="523" height="168" key="ComposerInitDialogKey" timestamp="1576271435265">
+      <screen x="67" y="27" width="1373" height="873" />
+    </state>
+    <state x="487" y="378" width="523" height="168" key="ComposerInitDialogKey/67.27.1373.873@67.27.1373.873" timestamp="1576271435265" />
     <state x="531" y="220" width="424" height="484" key="FileChooserDialogImpl" timestamp="1576235696059">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="531" y="220" width="424" height="484" key="FileChooserDialogImpl/67.27.1373.873@67.27.1373.873" timestamp="1576235696059" />
-    <state x="372" y="276" width="753" height="373" key="NewPhpClassDialog" timestamp="1576253829424">
+    <state x="372" y="276" width="769" height="373" key="NewPhpClassDialog" timestamp="1576265649295">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state x="372" y="276" width="753" height="373" key="NewPhpClassDialog/67.27.1373.873@67.27.1373.873" timestamp="1576253829424" />
+    <state x="372" y="276" width="769" height="373" key="NewPhpClassDialog/67.27.1373.873@67.27.1373.873" timestamp="1576265649295" />
     <state x="549" y="388" width="399" height="149" key="NewPhpFileDialog" timestamp="1576235264022">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
     <state x="549" y="388" width="399" height="149" key="NewPhpFileDialog/67.27.1373.873@67.27.1373.873" timestamp="1576235264022" />
-    <state x="409" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1576249118429">
+    <state x="409" y="290" key="com.intellij.ide.util.TipDialog" timestamp="1576262679508">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state x="409" y="290" key="com.intellij.ide.util.TipDialog/67.27.1373.873@67.27.1373.873" timestamp="1576249118429" />
-    <state x="407" y="80" width="683" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576163575317">
+    <state x="409" y="290" key="com.intellij.ide.util.TipDialog/67.27.1373.873@67.27.1373.873" timestamp="1576262679508" />
+    <state x="407" y="80" width="683" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1576263279201">
       <screen x="67" y="27" width="1373" height="873" />
     </state>
-    <state x="407" y="80" width="683" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1373.873@67.27.1373.873" timestamp="1576163575317" />
+    <state x="407" y="80" width="683" height="764" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/67.27.1373.873@67.27.1373.873" timestamp="1576263279201" />
     <state x="417" y="208" key="run.anything.popup" timestamp="1576249146089">
       <screen x="67" y="27" width="1373" height="873" />
     </state>

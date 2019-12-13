@@ -12,6 +12,8 @@ class QueryBuilder
 
     public function fetchAll($table, $intoModel)
     {
+
+        require "app/model/Task.php";
         $statement = $this->pdo->prepare("select * from {$table}");
         $statement->execute();
         return $statement->fetchAll(PDO::FETCH_CLASS, $intoModel);

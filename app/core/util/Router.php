@@ -1,5 +1,9 @@
 <?php
 
+namespace App\Core;
+
+use Exception;
+
 class Router
 {
     protected static $routes = [
@@ -28,8 +32,22 @@ class Router
     public function direct($uri, $requestType)
     {
         if (array_key_exists($uri, static::$routes[$requestType])) {
-            return static::$routes[$requestType][$uri];
+
+            return $this->callAction(...explode("@", static::$routes[$requestType][$uri]));
         }
         throw new Exception("No Routes defined for this URI");
+    }
+
+    protected function callAction($controller, $action)
+    {
+
+        $controller = "App\\Controllers\\{$controller}";
+
+        if (!method_exists($controller, $action)) {
+            throw new Exception(
+                "{$controller} does not respond to the {$action} action."
+            );
+        }
+        return (new $controller)->$action();
     }
 }
